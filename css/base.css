@@ -391,20 +391,17 @@ body, html {
     top: 30%;
     color: #fff; }
   #main form {
-    height: 100%;
-    width: 100%; }
+    position: relative;
+    top: 40%; }
     #main form .form-group {
       display: inline-block;
       width: 30%;
       position: relative;
-      top: 38%;
       left: 33%; }
     #main form #search {
       display: inline-block;
       position: relative;
-      top: 38%;
       left: 33%; }
 
 #content {
-  height: 100%;
   padding-top: 50px; }

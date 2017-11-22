@@ -19,24 +19,21 @@ body,html {
 		color: #fff;
   }
   form {
-  	height: 100%;
-  	width: 100%;
+  	position: relative;
+  	top: 40%;
 		.form-group {
 			display: inline-block;
 			width: 30%;
 			position: relative;
-			top: 38%;
 			left: 33%;
 		}
 		#search {
 			display: inline-block;
 			position: relative;
-			top: 38%;
 			left: 33%;
 		}
   }
 }
 #content {
-	height: 100%;
 	padding-top: 50px;
 }
