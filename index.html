@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>高雄違規照相查詢</title>
+
+	<!-- inject css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/base.css" type="text/css">
+	<!-- endinject -->
+
+</head>
+<body>
+	<div id="main" class="container-fluid">
+	  <h1>高雄違規照相查詢</h1>
+    <form action="">
+        <div class="form-group">
+          <select name="selection" id="dist" class="form-control">
+            <option value="三民區">三民區</option>
+            <option value="小港區">小港區</option>
+            <option value="左營區">左營區</option>
+            <option value="前鎮區">前鎮區</option>
+            <option value="苓雅區">苓雅區</option>
+            <option value="前金區">前金區</option>
+            <option value="新興區">新興區</option>
+            <option value="楠梓區">楠梓區</option>
+            <option value="鼓山區">鼓山區</option>
+            <option value="楠梓區">楠梓區</option>
+            <option value="鹽埕區">鹽埕區</option>
+            <option value="鳳山區">鳳山區</option>
+            <option value="楠梓區">楠梓區</option>
+            <option value="大寮區">大寮區</option>
+            <option value="仁武區">仁武區</option>
+            <option value="林園區">林園區</option>
+            <option value="岡山區">岡山區</option>
+            <option value="路竹區">路竹區</option>
+            <option value="旗山區">旗山區</option>
+            <option value="橋頭區">橋頭區</option>
+            <option value="燕巢區">燕巢區</option>
+            <option value="美濃區">美濃區</option>
+            <option value="鳥松區">鳥松區</option>
+            <option value="湖內區">湖內區</option>
+            <option value="梓官區">梓官區</option>
+            <option value="永安區">永安區</option>
+            <option value="茄萣區">茄萣區</option>
+            <option value="彌陀區">彌陀區</option>
+            <option value="六龜區">六龜區</option>
+            <option value="大社區">大社區</option>
+          </select>
+        </div>
+        <button type="button" id="search" class="btn btn-default">
+        	搜尋
+        </button>
+    </form>
+	</div>  
+	<div id="content" class="container">
+	  <table class="table">
+	    <thead>
+	      <tr class="danger">
+	        <th>測照地點</th>
+	        <th>測照方向</th>
+	        <th>違規原因</th>
+	      </tr>
+	    </thead>
+	    <tbody id="input">
+	    </tbody>
+	  </table>
+	</div>
+
+	<!-- inject js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+	<!-- end inject -->
+
+</body>
+</html>

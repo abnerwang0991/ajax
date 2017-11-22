@@ -1,0 +1,42 @@
+@import "reset";
+
+body,html {
+	height: 100%;
+	font-family: Microsoft JhengHei;
+}
+#main {
+	height:100%;
+	background-image: url("https://i.imgur.com/Jmp9iSM.jpg");
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  h1 {
+  	position: relative;
+		text-align: center;
+		top: 30%;
+		color: #fff;
+  }
+  form {
+  	height: 100%;
+  	width: 100%;
+		.form-group {
+			display: inline-block;
+			width: 30%;
+			position: relative;
+			top: 38%;
+			left: 33%;
+		}
+		#search {
+			display: inline-block;
+			position: relative;
+			top: 38%;
+			left: 33%;
+		}
+  }
+}
+#content {
+	height: 100%;
+	padding-top: 50px;
+}
